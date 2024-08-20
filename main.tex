@@ -1,0 +1,258 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Yatin Kukreja } \\ \vspace{1pt}
+    6242 Chatham Dr S, Seattle, Wa 98118 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\ 206-471-5668 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\  \underline{yatin\_kukreja@outlook.com}} ~ 
+    \href{https://linkedin.com/in//}{\raisebox{-0.2\height}\ \underline{linkedin.com/in/yatin-kukreja}}  ~
+    \href{https://github.com/}{\raisebox{-0.2\height}\ \underline{github.com/Yatinkukreja}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Purdue University}{Sep. 2021 -- May 2025}
+      {Bachelor of Science in Computer Science, GPA: 3.85}{W Lafayette, IN}
+  \resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+% \section{Relevant Coursework}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                 \item\small Data Structures
+%                 \item Software Methodology
+%                 \item Algorithms Analysis
+%                 \item Database Management
+%                 \item Artificial Intelligence
+%                 \item Internet Technology
+%                 \item Systems Programming
+%                 \item Computer Architecture
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Udemy}{June 2024 -- August 2024}
+      {Software Engineer Intern}{San Fransisco, CA}
+      \resumeItemListStart
+        \resumeItem{Designed and implemented secure, rate-limited, and validated REST API endpoints for creating and polling OpenAI text generation requests to write CloudFormation templates}
+        \resumeItem{Defined protobufs and developed gRPC services to handle request and response cycles for CloudFormation generation}
+        \resumeItem{Successfully built and integrated gRPC service for CloudFormation generation into existing microservice architecture}
+        \resumeItem{Created user-friendly modal for AI-assisted CloudFormation template generation using React and TypeScript, ensuring robust input validation}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Epic Systems}{May 2023 -- August 2023}
+      {Software Developer Intern}{Madison, WI}
+      \resumeItemListStart
+        \resumeItem{Created client facing tree based UI, enhancing doctor referral precision and efficiency}
+        \resumeItem{Architected comprehensive full-stack tree web application, integrating C\# server components from various teams}
+        \resumeItem{Collaborated with UI/UX intern to design user-centric, efficient interfaces using React and Typescript}
+        \resumeItem{Conducted weekly meetings with hospital executives and doctors to identify pain points and user needs}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Quasi}{June 2022 -- August 2022}
+      {Software Developer Intern}{Seattle, WA}
+      \resumeItemListStart
+        \resumeItem{Created over 10 web pages to support new features, contributing to the acquisition of the first paying customer}
+        \resumeItem{Utilized React, Javascript, and TailwindCSS to ensure website aesthetics aligned with marketing lead's vision}
+        \resumeItem{Developed and optimized API endpoints using Python to interact with Firebase and Typesense databases}
+        \resumeItem{Participated in regular strategy, marketing, and direction discussions with founders}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Woohoo!}{Jan 2022 -  May 2022}
+      {Software Developer Intern}{W Lafayette, IN}
+      \resumeItemListStart
+        \resumeItem{Developed and integrated components to enhance user experience of Woohoo! mobile application}
+        \resumeItem{Transformed graphic designer work into reusable React Native Components for app}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Git Commit Message Analyzer VSCode Extension} $|$ \emph{Typescript, Git, Google Gemini API}}{March 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{Developing a VSCode extension that leverages NLP and generative AI models (e.g., VADER and Gemini)}
+            \resumeItem{Analyzes recent Git commit messages to provide sentiment analysis and insights into notable trends}
+            \resumeItem{Utilizes the VSCode API for clean and intuitive presentation of results}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{ScratchML} $|$ \emph{React, Typescript, Python, Flask, Scikit-Learn, PyTorch, Prediction Guard LLM}}{February 2024}
+          \resumeItemListStart
+            \resumeItem{Built an education platform to teach ML principles to non-technical students using a Scratch-inspired drag-and-drop UI}
+            \resumeItem{Developed the front end in React and the back end with a Python Flask server, leveraging scikit-learn and PyTorch for model building, all within 36 hours}
+            \resumeItem{Awarded ``Best Developer Tool" at a hackathon with over 300 project submissions and 1600+ participants}
+            \resumeItem{Achieved 2nd place for ``Best Use of Intel Developer Cloud" at the same hackathon}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C++, C, C\#, Javascript/Typescript, HTML/CSS, SQL} \\
+     \textbf{Developer Tools}{: GIT, Firebase, VS Code, Bash, Jira, Protobufs, gRPC, REST API} \\
+     \textbf{Technologies/Frameworks}{: React, TailwindCSS, Flask, Django, Google Gemini API, VADER} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+% \section{Leadership / Extracurricular}
+%     \resumeSubHeadingListStart
+%         \resumeSubheading{Fraternity}{Spring 2020 -- Present}{President}{University Name}
+%             \resumeItemListStart
+%                 \resumeItem{Achieved a 4 star fraternity ranking by the Office of Fraternity and Sorority Affairs (highest possible ranking).}
+%                 \resumeItem{Managed executive board of 5 members and ran weekly meetings to oversee progress in essential parts of the chapter.}
+%                 \resumeItem{Led chapter of 30+ members to work towards goals that improve and promote community service, academics, and unity.}
+%             \resumeItemListEnd
+        
+%     \resumeSubHeadingListEnd
+
+
+\end{document}
+
