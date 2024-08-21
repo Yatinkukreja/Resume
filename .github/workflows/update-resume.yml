@@ -39,6 +39,7 @@ jobs:
         repository: Yatinkukreja/Personal-Website
         token: ${{ secrets.GITHUB_TOKEN }}
         path: website
+        persist-credentials: true
 
     - name: delete old resume pdf
       run: rm website/frontend/public/main.pdf
